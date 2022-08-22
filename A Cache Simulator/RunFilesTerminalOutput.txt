@@ -1,0 +1,157 @@
+Done reading ./traces/bzip2.log_l1misstrace 0!
+Done reading ./traces/bzip2.log_l1misstrace 1!
+Done reading ./traces/gcc.log_l1misstrace 0!
+Done reading ./traces/gcc.log_l1misstrace 1!
+Done reading ./traces/gromacs.log_l1misstrace 0!
+Done reading ./traces/h264ref.log_l1misstrace 0!
+Done reading ./traces/hmmer.log_l1misstrace 0!
+Done reading ./traces/sphinx3.log_l1misstrace 0!
+Done reading ./traces/sphinx3.log_l1misstrace 1!
+
+
+Running Q1-inclusive.py for Inclusive L2 L3 Cache Hierarchy Simulation
+
+Executing the L1Miss Trace of : h264ref
+L2cache Miss Count of  h264ref  is :  969678  and L2cache Hit Count of  h264ref  is :  1378895
+L3cache Miss Count of  h264ref  is :  342146 L3cache Hit Count of  h264ref  is :  627532
+
+Executing the L1Miss Trace of : gromacs
+L2cache Miss Count of  gromacs  is :  336851  and L2cache Hit Count of  gromacs  is :  3094660
+L3cache Miss Count of  gromacs  is :  170531 L3cache Hit Count of  gromacs  is :  166320
+
+Executing the L1Miss Trace of : hmmer
+L2cache Miss Count of  hmmer  is :  1743421  and L2cache Hit Count of  hmmer  is :  1766344
+L3cache Miss Count of  hmmer  is :  391226 L3cache Hit Count of  hmmer  is :  1352195
+
+Executing the L1Miss Trace of : bzip
+L2cache Miss Count of  bzip  is :  5398166  and L2cache Hit Count of  bzip  is :  5259461
+L3cache Miss Count of  bzip  is :  1446388 L3cache Hit Count of  bzip  is :  3951778
+
+Executing the L1Miss Trace of : sphinx
+L2cache Miss Count of  sphinx  is :  8820349  and L2cache Hit Count of  sphinx  is :  1933098
+L3cache Miss Count of  sphinx  is :  8207362 L3cache Hit Count of  sphinx  is :  612987
+
+Executing the L1Miss Trace of : gcc
+L2cache Miss Count of  gcc  is :  3036461  and L2cache Hit Count of  gcc  is :  11574350
+L3cache Miss Count of  gcc  is :  1373402 L3cache Hit Count of  gcc  is :  1663059
+
+
+Running Q1-nine.py for Nine L2 L3 Cache Hierarchy Simulation
+
+Executing the L1Miss Trace of : h264ref
+L2cache Miss Count of  h264ref  is :  965624  and L2cache Hit Count of  h264ref  is :  1382949
+L3cache Miss Count of  h264ref  is :  333583 L3cache Hit Count of  h264ref  is :  632041
+
+Executing the L1Miss Trace of : gromacs
+L2cache Miss Count of  gromacs  is :  336724  and L2cache Hit Count of  gromacs  is :  3094787
+L3cache Miss Count of  gromacs  is :  170459 L3cache Hit Count of  gromacs  is :  166265
+
+Executing the L1Miss Trace of : hmmer
+L2cache Miss Count of  hmmer  is :  1735322  and L2cache Hit Count of  hmmer  is :  1774443
+L3cache Miss Count of  hmmer  is :  376344 L3cache Hit Count of  hmmer  is :  1358978
+
+Executing the L1Miss Trace of : bzip
+L2cache Miss Count of  bzip  is :  5397576  and L2cache Hit Count of  bzip  is :  5260051
+L3cache Miss Count of  bzip  is :  1445846 L3cache Hit Count of  bzip  is :  3951730
+
+Executing the L1Miss Trace of : sphinx
+L2cache Miss Count of  sphinx  is :  8815130  and L2cache Hit Count of  sphinx  is :  1938317
+L3cache Miss Count of  sphinx  is :  8205144 L3cache Hit Count of  sphinx  is :  609986
+
+Executing the L1Miss Trace of : gcc
+L2cache Miss Count of  gcc  is :  3029809  and L2cache Hit Count of  gcc  is :  11581002
+L3cache Miss Count of  gcc  is :  1366248 L3cache Hit Count of  gcc  is :  1663561
+
+
+Running Q1-exclusive.py for Exclusive L2 L3 Cache Hierarchy Simulation
+
+Executing the L1Miss Trace of : h264ref
+L2cache Miss Count of  h264ref  is :  965624  and L2cache Hit Count of  h264ref  is :  1382949
+L3cache Miss Count of  h264ref  is :  143681 L3cache Hit Count of  h264ref  is :  821943
+
+Executing the L1Miss Trace of : gromacs
+L2cache Miss Count of  gromacs  is :  336724  and L2cache Hit Count of  gromacs  is :  3094787
+L3cache Miss Count of  gromacs  is :  159302 L3cache Hit Count of  gromacs  is :  177422
+
+Executing the L1Miss Trace of : hmmer
+L2cache Miss Count of  hmmer  is :  1735322  and L2cache Hit Count of  hmmer  is :  1774443
+L3cache Miss Count of  hmmer  is :  300046 L3cache Hit Count of  hmmer  is :  1435276
+
+Executing the L1Miss Trace of : bzip
+L2cache Miss Count of  bzip  is :  5397576  and L2cache Hit Count of  bzip  is :  5260051
+L3cache Miss Count of  bzip  is :  889221 L3cache Hit Count of  bzip  is :  4508355
+
+Executing the L1Miss Trace of : sphinx
+L2cache Miss Count of  sphinx  is :  8815130  and L2cache Hit Count of  sphinx  is :  1938317
+L3cache Miss Count of  sphinx  is :  7220776 L3cache Hit Count of  sphinx  is :  1594354
+
+Executing the L1Miss Trace of : gcc
+L2cache Miss Count of  gcc  is :  3029809  and L2cache Hit Count of  gcc  is :  11581002
+L3cache Miss Count of  gcc  is :  1242824 L3cache Hit Count of  gcc  is :  1786985
+
+
+Running Q2-belady.py for Inclusive set associative L2 and fully associative L3 Cache Hierarchy Simulation
+
+Executing the L1Miss Trace of : h264ref
+L3cache Miss Count of  h264ref  is :  111618
+L3cache Cold Miss Count of  h264ref  is :  63703
+L3cache Capacity Miss Count of  h264ref  is :  47915
+
+Executing the L1Miss Trace of : gromacs
+L3cache Miss Count of  gromacs  is :  143255
+L3cache Cold Miss Count of  gromacs  is :  107962
+L3cache Capacity Miss Count of  gromacs  is :  35293
+
+Executing the L1Miss Trace of : hmmer
+L3cache Miss Count of  hmmer  is :  153446
+L3cache Cold Miss Count of  hmmer  is :  75884
+L3cache Capacity Miss Count of  hmmer  is :  77562
+
+Executing the L1Miss Trace of : bzip
+L3cache Miss Count of  bzip  is :  536835
+L3cache Cold Miss Count of  bzip  is :  119753
+L3cache Capacity Miss Count of  bzip  is :  417082
+
+Executing the L1Miss Trace of : sphinx
+L3cache Miss Count of  sphinx  is :  3068578
+L3cache Cold Miss Count of  sphinx  is :  122069
+L3cache Capacity Miss Count of  sphinx  is :  2946509
+
+Executing the L1Miss Trace of : gcc
+L3cache Miss Count of  gcc  is :  939287
+L3cache Cold Miss Count of  gcc  is :  773053
+L3cache Capacity Miss Count of  gcc  is :  166234
+
+
+Running Q2-lru.py for Inclusive set associative L2 and fully associative L3 Cache Hierarchy Simulation
+
+Executing the L1Miss Trace of : h264ref
+L3cache Miss Count of  h264ref  is :  335880
+L3cache Cold Miss Count of  h264ref  is :  63703
+L3cache Capacity Miss Count of  h264ref  is :  272177
+
+Executing the L1Miss Trace of : gromacs
+L3cache Miss Count of  gromacs  is :  169368
+L3cache Cold Miss Count of  gromacs  is :  107962
+L3cache Capacity Miss Count of  gromacs  is :  61406
+
+Executing the L1Miss Trace of : hmmer
+L3cache Miss Count of  hmmer  is :  377024
+L3cache Cold Miss Count of  hmmer  is :  75884
+L3cache Capacity Miss Count of  hmmer  is :  301140
+
+Executing the L1Miss Trace of : bzip
+L3cache Miss Count of  bzip  is :  1361401
+L3cache Cold Miss Count of  bzip  is :  119753
+L3cache Capacity Miss Count of  bzip  is :  1241648
+
+Executing the L1Miss Trace of : sphinx
+L3cache Miss Count of  sphinx  is :  8387248
+L3cache Cold Miss Count of  sphinx  is :  122069
+L3cache Capacity Miss Count of  sphinx  is :  8265179
+
+Executing the L1Miss Trace of : gcc
+L3cache Miss Count of  gcc  is :  1369924
+L3cache Cold Miss Count of  gcc  is :  773053
+L3cache Capacity Miss Count of  gcc  is :  596871
+
