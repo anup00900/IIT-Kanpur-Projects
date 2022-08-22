@@ -1,0 +1,2 @@
+Designed a simulator to model a multi-core cache hierarchy supporting directory-based MESI cache coherence
+protocol in C++.
