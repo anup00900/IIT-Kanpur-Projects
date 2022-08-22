@@ -1,0 +1,10 @@
+In this text, we survey prominent Gradient Descent techniques for
+optimization. Both, deterministic and stochastic methods are reviewed, such
+as SGD, Momentum, AdaGrad, ADAM and NAG. Convergence analyses
+of these algorithms are given, for objectives with various constraints on
+convexity, strong smoothness and strong convexity. Particularly for Adam,
+we review a recent work showing that the algorithm does not always
+converge, and restate the rigorous proof of the counterexample. Finally,
+the text aims to act as a reference for the reader to refer to convergence
+analyses of the above-mentioned methods, along with certain comments on
+the performance of these methods.
